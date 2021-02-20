@@ -11,9 +11,8 @@
         <scala.version>${scala.major.version}.10</scala.version>
         <maven-shade-plugin.version>3.2.1</maven-shade-plugin.version>
 
-        <akka.version>2.5.26</akka.version>
-        <akka-http.version>10.1.11</akka-http.version>
-        <akka-jwt.version>1.1.1</akka-jwt.version>
+        <akka.version>2.6.12</akka.version>
+        <akka-http.version>10.2.3</akka-http.version>
 
         <slf4j.version>1.7.28</slf4j.version>
         <typesafe-config.version>1.4.0</typesafe-config.version>
@@ -53,12 +52,6 @@
             <groupId>de.heikoseeberger</groupId>
             <artifactId>akka-http-play-json_${scala.major.version}</artifactId>
             <version>1.31.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>de.innfactory</groupId>
-            <artifactId>akka-jwt_${scala.major.version}</artifactId>
-            <version>${akka-jwt.version}</version>
         </dependency>
 
         <dependency>
